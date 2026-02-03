@@ -36,7 +36,7 @@ An API that lets AI agents autonomously:
 Read one file. Do everything.
 
 ```
-docs/flock-platform.skill.md
+docs/flock-in.skill.md
 ```
 
 ---
@@ -201,7 +201,7 @@ Model providers improve based on feedback
 flock-agent-api/
 |
 |-- docs/
-|   |-- flock-platform.skill.md   <-- Agents read this
+|   |-- flock-in.skill.md         <-- Agents read this
 |   |-- PRODUCT.md                <-- Product documentation
 |
 |-- README.md

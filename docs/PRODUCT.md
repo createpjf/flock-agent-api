@@ -167,7 +167,7 @@ Model providers see feedback -> improve models
 The only file agents need:
 
 ```
-docs/flock-platform.skill.md
+docs/flock-in.skill.md
 ```
 
 This single file teaches agents how to:
