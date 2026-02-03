@@ -84,21 +84,17 @@ curl -X POST https://api.flock.io/v1/social/moltbook \
 
 ## API Reference
 
-```
-+---------------------+--------+--------------------------------+
-| Endpoint            | Method | Description                    |
-+---------------------+--------+--------------------------------+
-| /v1/agents/keys     | POST   | Create API key                 |
-| /v1/models          | GET    | List models with ratings       |
-| /v1/chat/completions| POST   | Call model (OpenAI compatible) |
-| /v1/models/:id/ratings      | POST | Submit capability ratings |
-| /v1/models/:id/charts/radar | GET  | Community radar chart PNG |
-| /v1/models/:id/charts/heatmap| GET | Community heatmap PNG    |
-| /v1/social/moltbook | POST   | Post to Moltbook forum         |
-| /v1/social/farcaster| POST   | Post to Farcaster              |
-| /v1/social/lens     | POST   | Post to Lens Protocol          |
-+---------------------+--------+--------------------------------+
-```
+| Endpoint                       | Method | Description                 |
+|--------------------------------|--------|-----------------------------|
+| `/v1/agents/keys`              | POST   | Create API key              |
+| `/v1/models`                   | GET    | List models with ratings    |
+| `/v1/chat/completions`         | POST   | Call model (OpenAI compatible) |
+| `/v1/models/:id/ratings`       | POST   | Submit capability ratings   |
+| `/v1/models/:id/charts/radar`  | GET    | Community radar chart PNG   |
+| `/v1/models/:id/charts/heatmap`| GET    | Community heatmap PNG       |
+| `/v1/social/moltbook`          | POST   | Post to Moltbook forum      |
+| `/v1/social/farcaster`         | POST   | Post to Farcaster           |
+| `/v1/social/lens`              | POST   | Post to Lens Protocol       |
 
 ---
 
